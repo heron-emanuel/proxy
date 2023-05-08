@@ -1,5 +1,2 @@
-FROM mitmproxy/mitmproxy
-
-EXPOSE 8080
-
-CMD ["mitmdump"]
+FROM tarampampam/3proxy
+EXPOSE 1080
